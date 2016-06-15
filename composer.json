@@ -1,0 +1,23 @@
+{
+    "name": "synduit/synpost-database-bundle",
+    "description": "Create Document and Repository for synpost database strcture.",
+    "type": "package",
+    "authors": [
+        {
+            "name": "Kuldeep Singh Pal",
+            "email": "tkuldeep.allen@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "symfony/symfony": "2.7.*",
+        "doctrine/doctrine-bundle": "^1.5",
+        "doctrine/mongodb-odm": "^1.0",
+        "doctrine/mongodb-odm-bundle": "^3.0",
+        "doctrine/mongodb": "^1.2",
+        "doctrine/orm": "^2.5"
+    },
+    "autoload": {
+        "psr-4": { "Synduit\\SynpostDatabaseBundle\\": "" }
+    }
+}
